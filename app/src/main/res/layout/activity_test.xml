@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_IE1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_round_green"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="타입1문제) 나는 처음 만난 사람에게 내 소개를 하는 것이 어렵다"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_IE1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <RadioButton
+                        android:id="@+id/rb_IE1NN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_IE1N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_IE1M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="보통"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_IE1Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="긍정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_IE1YY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한긍정"
+                        android:layout_weight="1"/>
+                </RadioGroup>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_SN1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_round_green"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="타입2문제) 나는 우아아앙 S다 맞지"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <RadioButton
+                        android:id="@+id/rb_SN1NN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_SN1N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_SN1M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="보통"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_SN1Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="긍정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_SN1YY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한긍정"
+                        android:layout_weight="1"/>
+                </RadioGroup>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>
