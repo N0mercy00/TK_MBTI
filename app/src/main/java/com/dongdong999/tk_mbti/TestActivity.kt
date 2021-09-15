@@ -11,47 +11,75 @@ class TestActivity : AppCompatActivity() {
         val binding = ActivityTestBinding.inflate(layoutInflater)
         setContentView(binding.root)
         var tempPoint : Int =0;
-        var IEpoint : Int =0;
+        var IEPoint : Int =0;
+        var IE1 : Int =0;
+        var IE2 : Int =0;
         var SNpoint : Int =0;
 
 
         //답안 입력 테스트 완료 총점 입력도 완료
         binding.rgIE1.setOnCheckedChangeListener{group,id->
-            IEpoint=tempPoint
+            IE1=tempPoint
             tempPoint=0
             when(id){
                 R.id.rb_IE1NN->{
                     tempPoint=0
                     tempPoint-=2
-
-                    Log.d("TAG","현재 IE 점수 : ${tempPoint},${IEpoint}")
                 }
                 R.id.rb_IE1N->{
                     tempPoint=0
                     tempPoint-=1
-                    Log.d("TAG","현재 IE 점수 : ${tempPoint}")
                 }
                 R.id.rb_IE1M->{
                     tempPoint=0
-
-                    Log.d("TAG","현재 IE 점수 : ${tempPoint}")
                 }
                 R.id.rb_IE1Y->{
                     tempPoint=0
                     tempPoint+=1
-                    Log.d("TAG","현재 IE 점수 : ${tempPoint}")
                 }
                 R.id.rb_IE1YY->{
                     tempPoint=0
                     tempPoint+=2
-                    Log.d("TAG","현재 IE 점수 : ${tempPoint}")
                 }
 
             }
+            IE1=tempPoint
         }
 
-        IEpoint=tempPoint
-        Log.d("TAG","현재 IE 점수 : ${IEpoint}")
+        binding.rgIE2.setOnCheckedChangeListener { group,id->
+            IE2=tempPoint
+            tempPoint=0
+            when(id){
+                R.id.rb_IE2NN->{
+                    tempPoint=0
+                    tempPoint-=2
+
+                }
+                R.id.rb_IE2N->{
+                    tempPoint=0
+                    tempPoint-=1
+                }
+                R.id.rb_IE2M->{
+                    tempPoint=0
+                }
+                R.id.rb_IE2Y->{
+                    tempPoint=0
+                    tempPoint+=1
+                }
+                R.id.rb_IE2YY->{
+                    tempPoint=0
+                    tempPoint+=2
+                }
+            }
+            IE2=tempPoint
+        }
+
+        binding.btnGotoResult.setOnClickListener {
+            IEPoint=IE1+IE2
+            Log.d("TAG","IE1 점수 : ${IE1},IE2 점수 : ${IE2}")
+            Log.d("TAG","현재 토탈 IE 점수 : ${IEPoint}")
+        }
+
 
     }
 }

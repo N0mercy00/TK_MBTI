@@ -83,40 +83,41 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="타입2문제) 나는 우아아앙 S다 맞지"
+                    android:text="타입1문제) 나는 우아아앙 S다 맞지"
                     android:textStyle="bold"/>
 
                 <RadioGroup
+                    android:id="@+id/rg_IE2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:weightSum="5">
                     <RadioButton
-                        android:id="@+id/rb_SN1NN"
+                        android:id="@+id/rb_IE2NN"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="강한부정"
                         android:layout_weight="1"/>
                     <RadioButton
-                        android:id="@+id/rb_SN1N"
+                        android:id="@+id/rb_IE2N"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="부정"
                         android:layout_weight="1"/>
                     <RadioButton
-                        android:id="@+id/rb_SN1M"
+                        android:id="@+id/rb_IE2M"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="보통"
                         android:layout_weight="1"/>
                     <RadioButton
-                        android:id="@+id/rb_SN1Y"
+                        android:id="@+id/rb_IE2Y"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="긍정"
                         android:layout_weight="1"/>
                     <RadioButton
-                        android:id="@+id/rb_SN1YY"
+                        android:id="@+id/rb_IE2YY"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="강한긍정"
@@ -124,6 +125,12 @@
                 </RadioGroup>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <Button
+                android:id="@+id/btn_gotoResult"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="계산"/>
 
 
 
