@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
            startActivity(Intent(this,TestActivity::class.java))
         }
         binding.btnMainGotoReview.setOnClickListener {
-            startActivity(Intent(this,TestRecyclerActivity::class.java))
+
         }
     }
 }

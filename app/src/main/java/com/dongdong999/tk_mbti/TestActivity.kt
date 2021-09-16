@@ -1,5 +1,6 @@
 package com.dongdong999.tk_mbti
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -384,7 +385,7 @@ class TestActivity : AppCompatActivity() {
             resultType += if(CalPoint[3]>=0) "J" else "P"
             Log.d("TAG","테스트 결과 : ${resultType}")
 
-
+            startActivity(Intent(this,ResultActiviy::class.java))
 
 
         }
