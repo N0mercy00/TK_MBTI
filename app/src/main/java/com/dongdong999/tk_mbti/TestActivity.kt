@@ -9,11 +9,12 @@ class TestActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         var tempPoint : Int =0; //임시값
-        var IECalPoint : Double=0.0 //IE 환산점수 -100->E  100->I
         var IEqusetion :Array<Int> = arrayOf(0,0,0)//문제별 점수값값
 
-        var SNCalPoint : Double=0.0
         var SNqusetion :Array<Int> = arrayOf(0,0,0)
+
+        var CalPoint:Array<Double> = arrayOf(0.0,0.0,0.0,0.0)// 환산점수 각 배열의 요소가 IE SN TF JP 점수
+                                                            // -100->E  100->I
 
 
 
@@ -193,11 +194,11 @@ class TestActivity : AppCompatActivity() {
         //
 
         binding.btnGotoResult.setOnClickListener {
-            IECalPoint=((IEqusetion[0]+IEqusetion[1]+IEqusetion[2]).toDouble()/3)*50
-            Log.d("TAG","환산 IE 점수 : ${IECalPoint}")
+            CalPoint[0]=((IEqusetion[0]+IEqusetion[1]+IEqusetion[2]).toDouble()/3)*50
+            Log.d("TAG","환산 IE 점수 : ${CalPoint[0]}")
 
-            SNCalPoint=((SNqusetion[0]+SNqusetion[1]+SNqusetion[2]).toDouble()/3)*50
-            Log.d("TAG","환산 SN 점수 : ${SNCalPoint}")
+            CalPoint[1]=((SNqusetion[0]+SNqusetion[1]+SNqusetion[2]).toDouble()/3)*50
+            Log.d("TAG","환산 SN 점수 : ${CalPoint[1]}")
 
         }
 
