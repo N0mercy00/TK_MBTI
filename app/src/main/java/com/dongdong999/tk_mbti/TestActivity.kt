@@ -7,21 +7,26 @@ import com.dongdong999.tk_mbti.databinding.ActivityTestBinding
 
 class TestActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        var tempPoint : Int =0; //임시값
+        var IECalPoint : Double=0.0 //IE 환산점수 -100->E  100->I
+        var IEqusetion :Array<Int> = arrayOf(0,0,0)//문제별 점수값값
+
+        var SNCalPoint : Double=0.0
+        var SNqusetion :Array<Int> = arrayOf(0,0,0)
+
+
+
         super.onCreate(savedInstanceState)
         val binding = ActivityTestBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        var tempPoint : Int =0;
-        var IEPoint : Int =0;
-        var IECalPoint : Double=0.0
-        var IE1 : Int =0;
-        var IE2 : Int =0;
-        var IE3 : Int =0;
-        var SNpoint : Int =0;
 
 
-        //답안 입력 테스트 완료 총점 입력도 완료
+
+
+        //IE_Part
         binding.rgIE1.setOnCheckedChangeListener{group,id->
-            IE1=tempPoint
+            IEqusetion[0]=tempPoint
             tempPoint=0
             when(id){
                 R.id.rb_IE1NN->{
@@ -45,11 +50,10 @@ class TestActivity : AppCompatActivity() {
                 }
 
             }
-            IE1=tempPoint
+            IEqusetion[0]=tempPoint
         }
-
         binding.rgIE2.setOnCheckedChangeListener { group,id->
-            IE2=tempPoint
+            IEqusetion[1]=tempPoint
             tempPoint=0
             when(id){
                 R.id.rb_IE2NN->{
@@ -73,11 +77,10 @@ class TestActivity : AppCompatActivity() {
                     tempPoint+=2
                 }
             }
-            IE2=tempPoint
+            IEqusetion[1]=tempPoint
         }
-
         binding.rgIE3.setOnCheckedChangeListener { group,id->
-            IE3=tempPoint
+            IEqusetion[2]=tempPoint
             tempPoint=0
             when(id){
                 R.id.rb_IE3NN->{
@@ -101,18 +104,100 @@ class TestActivity : AppCompatActivity() {
                     tempPoint+=2
                 }
             }
-            IE3=tempPoint
+            IEqusetion[2]=tempPoint
         }
+        //
+
+        //SN_Part
+        binding.rgSN1.setOnCheckedChangeListener { group,id->
+            SNqusetion[0]=tempPoint
+            tempPoint=0
+            when(id){
+                R.id.rb_SN1NN->{
+                    tempPoint=0
+                    tempPoint-=2
+
+                }
+                R.id.rb_SN1N->{
+                    tempPoint=0
+                    tempPoint-=1
+                }
+                R.id.rb_SN1M->{
+                    tempPoint=0
+                }
+                R.id.rb_SN1Y->{
+                    tempPoint=0
+                    tempPoint+=1
+                }
+                R.id.rb_SN1YY->{
+                    tempPoint=0
+                    tempPoint+=2
+                }
+            }
+            SNqusetion[0]=tempPoint
+        }
+        binding.rgSN2.setOnCheckedChangeListener { group,id->
+            SNqusetion[1]=tempPoint
+            tempPoint=0
+            when(id){
+                R.id.rb_SN2NN->{
+                    tempPoint=0
+                    tempPoint-=2
+
+                }
+                R.id.rb_SN2N->{
+                    tempPoint=0
+                    tempPoint-=1
+                }
+                R.id.rb_SN2M->{
+                    tempPoint=0
+                }
+                R.id.rb_SN2Y->{
+                    tempPoint=0
+                    tempPoint+=1
+                }
+                R.id.rb_SN2YY->{
+                    tempPoint=0
+                    tempPoint+=2
+                }
+            }
+            SNqusetion[1]=tempPoint
+        }
+        binding.rgSN3.setOnCheckedChangeListener { group,id->
+            SNqusetion[2]=tempPoint
+            tempPoint=0
+            when(id){
+                R.id.rb_SN3NN->{
+                    tempPoint=0
+                    tempPoint-=2
+
+                }
+                R.id.rb_SN3N->{
+                    tempPoint=0
+                    tempPoint-=1
+                }
+                R.id.rb_SN3M->{
+                    tempPoint=0
+                }
+                R.id.rb_SN3Y->{
+                    tempPoint=0
+                    tempPoint+=1
+                }
+                R.id.rb_SN3YY->{
+                    tempPoint=0
+                    tempPoint+=2
+                }
+            }
+            SNqusetion[2]=tempPoint
+        }
+        //
 
         binding.btnGotoResult.setOnClickListener {
-
-            IEPoint=0
-            IEPoint=IE1+IE2+IE3
-            Log.d("TAG","IE1 점수 : ${IE1},IE2 점수 : ${IE2}")
-            Log.d("TAG","현재 토탈 IE 점수 : ${IEPoint}")
-
-            IECalPoint=(IEPoint.toDouble()/3)*50
+            IECalPoint=((IEqusetion[0]+IEqusetion[1]+IEqusetion[2]).toDouble()/3)*50
             Log.d("TAG","환산 IE 점수 : ${IECalPoint}")
+
+            SNCalPoint=((SNqusetion[0]+SNqusetion[1]+SNqusetion[2]).toDouble()/3)*50
+            Log.d("TAG","환산 SN 점수 : ${SNCalPoint}")
 
         }
 

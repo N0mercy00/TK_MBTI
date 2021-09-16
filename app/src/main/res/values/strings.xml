@@ -2,6 +2,10 @@
     <string name="app_name">TK_MBTI</string>
     <string name="QuestionIE1">다른 사람들에게 자신을 소개하는 것을 어려워 합니다.</string>
     <string name="QuestionIE2">보통 대화를 먼저 시작하지 않습니다.</string>
-    <string name="QuestionIE3">대게 의욕적이고 활동적입니다.</string>
+    <string name="QuestionIE3">대게 의욕적이고 활동적이지 않습니다.</string>
+
+    <string name="QuestionSN1">본인이 창의적이기보다 현실적인 사람이라고 생각합니다.</string>
+    <string name="QuestionSN2">동일한 문제를 조우하는 경우 항상 같은 해결법을 사용합니다.</string>
+    <string name="QuestionSN3">미래보다 중요한 것은 현재입니다.</string>
 
 </resources>
