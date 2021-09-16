@@ -28,7 +28,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="타입1문제) 나는 처음 만난 사람에게 내 소개를 하는 것이 어렵다"
+                    android:text="@string/QuestionIE1"
                     android:textStyle="bold"/>
 
                 <RadioGroup
@@ -72,7 +72,7 @@
             </androidx.appcompat.widget.LinearLayoutCompat>
 
             <androidx.appcompat.widget.LinearLayoutCompat
-                android:id="@+id/ll_SN1"
+                android:id="@+id/ll_IE2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/border_round_green"
@@ -83,7 +83,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="타입1문제) 나는 우아아앙 S다 맞지"
+                    android:text="@string/QuestionIE2"
                     android:textStyle="bold"/>
 
                 <RadioGroup
@@ -118,6 +118,61 @@
                         android:layout_weight="1"/>
                     <RadioButton
                         android:id="@+id/rb_IE2YY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한긍정"
+                        android:layout_weight="1"/>
+                </RadioGroup>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_IE3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_round_green"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/QuestionIE3"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_IE3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <RadioButton
+                        android:id="@+id/rb_IE3NN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_IE3N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_IE3M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="보통"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_IE3Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="긍정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_IE3YY"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="강한긍정"
