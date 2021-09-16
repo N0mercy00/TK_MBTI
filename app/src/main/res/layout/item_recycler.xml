@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycler_item_item"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:padding="10dp"
+    android:background="@drawable/border_round_green">
+
+
+        <TextView
+            android:id="@+id/recycler_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/QuestionIE1"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/rg_RR1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+            <RadioButton
+                android:id="@+id/rb_RR1NN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강한부정"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/rb_RR1N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="부정"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/rb_RR1M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="보통"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/rb_RR1Y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="긍정"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/rb_RR1YY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="강한긍정"
+                android:layout_weight="1"/>
+        </RadioGroup>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
