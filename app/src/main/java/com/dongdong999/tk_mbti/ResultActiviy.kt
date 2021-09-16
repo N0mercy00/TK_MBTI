@@ -35,9 +35,23 @@ class ResultActiviy : AppCompatActivity() {
 
         Log.d("TAG","전달완료 결과값 ${resultText}, 점수 각 ${score[0]} ${score[1]} ${score[2]} ${score[3]}")
 
-        Glide.with(this)
-            .load("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/GuanYu-ZhouCang.jpg/200px-GuanYu-ZhouCang.jpg")
-            .into(binding.ivResultImage)
+
+        if(resultText.equals("ISTJ")){
+            Glide.with(this)
+                .load("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/GuanYu-ZhouCang.jpg/200px-GuanYu-ZhouCang.jpg")
+                .into(binding.ivResultImage)
+
+
+
+        }else if(resultText.equals("ENFP")){
+            Glide.with(this)
+                .load("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Cao_Cao_Portrait_ROTK.jpg/209px-Cao_Cao_Portrait_ROTK.jpg")
+                .into(binding.ivResultImage)
+            binding.tvResultName.text="당신은 '조조형' 인물입니다."
+            binding.tvResultcontent.text ="'차라리 내가 천하를 등질지언정, 천하가 나를 등지게 하지는 않겠다.'\n'그 아이가 죽은건 내게 불행이지만 너희들에겐 오히려 행운이렸다'\n-아들 조충이 죽었을때 다른 아들들에게 말하며-"
+        }
+
+
 
         val cunstomView = CustomView("",this)
         binding.llChar.addView(cunstomView)
