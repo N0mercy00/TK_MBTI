@@ -179,6 +179,7 @@
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 <!-- 여기까지 IE -->
+
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:id="@+id/ll_SN1"
                 android:layout_width="match_parent"
@@ -341,15 +342,343 @@
                 </RadioGroup>
 
             </androidx.appcompat.widget.LinearLayoutCompat>
+ <!-- 여기까지 SN -->
 
-            <!-- 여기까지 SN -->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_TF1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_round_green"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/QuestionTF1"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_TF1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <RadioButton
+                        android:id="@+id/rb_TF1NN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF1N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF1M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="보통"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF1Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="긍정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF1YY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한긍정"
+                        android:layout_weight="1"/>
+                </RadioGroup>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_TF2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_round_green"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/QuestionTF2"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_TF2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <RadioButton
+                        android:id="@+id/rb_TF2NN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF2N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF2M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="보통"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF2Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="긍정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF2YY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한긍정"
+                        android:layout_weight="1"/>
+                </RadioGroup>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_TF3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_round_green"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/QuestionTF3"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_TF3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <RadioButton
+                        android:id="@+id/rb_TF3NN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF3N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF3M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="보통"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF3Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="긍정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_TF3YY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한긍정"
+                        android:layout_weight="1"/>
+                </RadioGroup>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+<!--여기까지 TF-->
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_JP1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_round_green"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/QuestionJP1"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_JP1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <RadioButton
+                        android:id="@+id/rb_JP1NN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP1N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP1M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="보통"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP1Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="긍정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP1YY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한긍정"
+                        android:layout_weight="1"/>
+                </RadioGroup>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_JP2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_round_green"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/QuestionJP2"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_JP2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <RadioButton
+                        android:id="@+id/rb_JP2NN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP2N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP2M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="보통"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP2Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="긍정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP2YY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한긍정"
+                        android:layout_weight="1"/>
+                </RadioGroup>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/ll_JP3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_round_green"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/QuestionJP3"
+                    android:textStyle="bold"/>
+
+                <RadioGroup
+                    android:id="@+id/rg_JP3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+                    <RadioButton
+                        android:id="@+id/rb_JP3NN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP3N"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="부정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP3M"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="보통"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP3Y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="긍정"
+                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/rb_JP3YY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="강한긍정"
+                        android:layout_weight="1"/>
+                </RadioGroup>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+<!--문항끝-->
 
 
             <Button
                 android:id="@+id/btn_gotoResult"
-                android:layout_width="100dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="계산"/>
+                android:background="#4CAF50"
+                android:text="결과 보러 가기"/>
 
 
 

@@ -193,6 +193,10 @@ class TestActivity : AppCompatActivity() {
         }
         //
 
+        //TF_Part
+
+        //
+
         binding.btnGotoResult.setOnClickListener {
             CalPoint[0]=((IEqusetion[0]+IEqusetion[1]+IEqusetion[2]).toDouble()/3)*50
             Log.d("TAG","환산 IE 점수 : ${CalPoint[0]}")

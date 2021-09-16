@@ -8,4 +8,15 @@
     <string name="QuestionSN2">동일한 문제를 조우하는 경우 항상 같은 해결법을 사용합니다.</string>
     <string name="QuestionSN3">미래보다 중요한 것은 현재입니다.</string>
 
+    <string name="QuestionTF1">종종 다른 사람들의 감정에 공감하기가 어렵습니다.</string>
+    <string name="QuestionTF2">상대에게 공감하는 것보다 진실을 더 중요시해야 합니다.</string>
+    <string name="QuestionTF3">대화의 목적은 정보의 교환에 있습니다.</string>
+
+    <string name="QuestionJP1">중요한 것은 계획입니다.</string>
+    <string name="QuestionJP2">개인의 역량보다는 시스템적인 부분이 영향이 크다고 생각합니다.</string>
+    <string name="QuestionJP3">판단은 신속해야 합니다.</string>
+
+
+
+
 </resources>
