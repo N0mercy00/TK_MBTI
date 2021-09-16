@@ -19,7 +19,7 @@ class TestActivity : AppCompatActivity() {
         var CalPoint:Array<Double> = arrayOf(0.0,0.0,0.0,0.0)// 환산점수 각 배열의 요소가 IE SN TF JP 점수
                                                             // -100->E  100->I
 
-
+        var intent : Intent
 
         super.onCreate(savedInstanceState)
         val binding = ActivityTestBinding.inflate(layoutInflater)
@@ -385,7 +385,14 @@ class TestActivity : AppCompatActivity() {
             resultType += if(CalPoint[3]>=0) "J" else "P"
             Log.d("TAG","테스트 결과 : ${resultType}")
 
-            startActivity(Intent(this,ResultActiviy::class.java))
+            intent = Intent(this,ResultActiviy::class.java)
+            intent.putExtra("resultText",resultType)
+            intent.putExtra("score1",CalPoint[0].toInt())
+            intent.putExtra("score2",CalPoint[1].toInt())
+            intent.putExtra("score3",CalPoint[2].toInt())
+            intent.putExtra("score4",CalPoint[3].toInt())
+            //intent.putExtra("score",CalPoint)
+            startActivity(intent)
 
 
         }
