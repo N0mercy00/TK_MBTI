@@ -65,28 +65,28 @@ class ResultActiviy : AppCompatActivity() {
             yello.style=Paint.Style.FILL
             yello.strokeWidth=10f
             yello.color= resources.getColor(R.color.color1)
-            var IErect = Rect(180,20,0, 50)
+            var IErect = Rect(180,20,120, 50)
             canvas?.drawRect(IErect,yello)
 
             val green = Paint()
             green.style=Paint.Style.FILL
             green.strokeWidth=10f
             green.color= resources.getColor(R.color.color2)
-            var SNrect = Rect(180,80,360, 110)
+            var SNrect = Rect(180,80,50, 110)
             canvas?.drawRect(SNrect,green)
 
             val yello2 = Paint()
             yello2.style=Paint.Style.FILL
             yello2.strokeWidth=10f
             yello2.color= resources.getColor(R.color.color3)
-            var TFrect = Rect(180,140,10, 170)
+            var TFrect = Rect(180,140,80, 170)
             canvas?.drawRect(TFrect,yello2)
 
             val green2 = Paint()
             green2.style=Paint.Style.FILL
             green2.strokeWidth=10f
             green2.color= resources.getColor(R.color.color4)
-            var JPrect = Rect(180,200,300, 230)
+            var JPrect = Rect(180,200,150, 230)
             canvas?.drawRect(JPrect,green2)
 
             val black = Paint()
