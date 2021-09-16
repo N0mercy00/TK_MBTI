@@ -14,6 +14,7 @@ class TestActivity : AppCompatActivity() {
         var TFqusetion :Array<Int> = arrayOf(0,0,0)
         var JPqusetion :Array<Int> = arrayOf(0,0,0)
 
+        var resultType :String =""
         var CalPoint:Array<Double> = arrayOf(0.0,0.0,0.0,0.0)// 환산점수 각 배열의 요소가 IE SN TF JP 점수
                                                             // -100->E  100->I
 
@@ -360,6 +361,7 @@ class TestActivity : AppCompatActivity() {
         //
 
         binding.btnGotoResult.setOnClickListener {
+            resultType=""
             CalPoint[0]=((IEqusetion[0]+IEqusetion[1]+IEqusetion[2]).toDouble()/3)*50
             Log.d("TAG","\n환산 IE 점수 : ${CalPoint[0]}")
 
@@ -371,6 +373,19 @@ class TestActivity : AppCompatActivity() {
 
             CalPoint[3]=((JPqusetion[0]+JPqusetion[1]+JPqusetion[2]).toDouble()/3)*50
             Log.d("TAG","환산 JP 점수 : ${CalPoint[3]}")
+
+
+
+
+
+            resultType += if(CalPoint[0]>=0) "I" else "E"
+            resultType += if(CalPoint[1]>=0) "S" else "N"
+            resultType += if(CalPoint[2]>=0) "T" else "F"
+            resultType += if(CalPoint[3]>=0) "J" else "P"
+            Log.d("TAG","테스트 결과 : ${resultType}")
+
+
+
 
         }
 
