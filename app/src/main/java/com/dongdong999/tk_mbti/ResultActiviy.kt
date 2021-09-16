@@ -15,7 +15,7 @@ import com.bumptech.glide.Glide
 import com.dongdong999.tk_mbti.databinding.ActivityResultActiviyBinding
 
 class ResultActiviy : AppCompatActivity() {
-    lateinit var score : Array<Int>
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,7 +23,7 @@ class ResultActiviy : AppCompatActivity() {
         setContentView(binding.root)
 
         var resultText= intent.getStringExtra("resultText")
-        //var score:Array<Int> = arrayOf(0,0,0,0)
+        var score:Array<Int> = arrayOf(0,0,0,0)
         score[0]=intent.getIntExtra("score1",0)
         score[1]=intent.getIntExtra("score2",0)
         score[2]=intent.getIntExtra("score3",0)
