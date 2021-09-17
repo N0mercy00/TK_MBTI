@@ -19,12 +19,84 @@
     <string name="ENFP_title">당신은 "조조형" 인물입니다.</string>
     <string name="ENFP_say">"차라리 내가 천하를 등질지언정\n 천하가 나를 등지게 하지는 않겠다."\n-寧敎我負天下人, 休敎天下人負我-</string>
     <string name="ENFP_content">후한이 그 힘을 잃어가던 시기에 비상하고 탁월한 재능으로 두각을 드러내, 여러 제후를 연달아 격파하고 중국 대륙의 대부분을 통일하여, 위나라가 세워질 수 있는 기틀을 닦았다. 조조는 삼국지의 영웅들 가운데 패자(覇者)로 우뚝 솟은 초세지걸(超世之傑)이라는 평가와 후한을 멸망시킨 난세의 간웅(奸雄)이자 민간인과 포로를 무자비하게 학살한 폭군이라는 상반된 평가를 받는다.</string>
+    <string name="ENFP_url">https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Cao_Cao_Portrait_ROTK.jpg/209px-Cao_Cao_Portrait_ROTK.jpg</string>
 
-    <string name="ISTP_title">당신은 "관우형" 인물입니다.</string>
-    <string name="ISTP_say">"옥은 비록 깨어져 부서질지언정 \n그 하얀 빛을 잃으려 하지 않으며\n대나무는 불에 탈지언정 그 곧음을 잃으려 하지 않는다."</string>
-    <string name="ISTP_content">의리의 화신(化身)으로 중국의 민담이나 민간전승과 전설에서 널리 이야기되었고 나중에는 신격화되어 관제묘(關帝墓)가 세워졌다. 오늘날에도 중국인들이 숭배하는 대상 가운데 하나이다.</string>
+    <string name="ENTJ_title">당신은 "원소형" 인물입니다.</string>
+    <string name="ENTJ_say">"사나이가 어찌 풀숲에 몸을 숨기겠는가!"</string>
+    <string name="ENTJ_content">원래는 중앙에서 태어난 관료 출신이었지만 사상가·정치가로서의 명망과 경력을 바탕으로 기주 일대에서 빠르게 군벌화하였고, 한복·공손찬·장연·전해·공융 등의 정부 관료·군벌들을 격파·병합함으로써 가장 강력한 세력을 형성하였으나 조조에게 패한 뒤(관도대전) 202년에 병으로 죽었다.</string>
+    <string name="ENTJ_url">https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Yuan_Shao_Portrait.jpg/250px-Yuan_Shao_Portrait.jpg</string>
+
+    <string name="ESTJ_title">당신은 "동탁형" 인물입니다.</string>
+    <string name="ESTJ_say">시체를 지키던 군사 하나가 심지를 배꼽에 박아 불을 켜니 그 기름기가 흘러내려 땅을 적실 정도였다.\n-죽은 동탁의 시체에 촛불을 박은 병사1-</string>
+    <string name="ESTJ_content"> 영제 사후 십상시의 난 등 정치적 혼란을 틈타 정권을 잡았다. 소제를 폐하고 부패·살인·약탈·도굴·방화·축재 등 온갖 폭정을 휘둘렀다. 관리들의 대규모 무장 항명사태인 반동탁 연합군과 각종 암살 시도가 있었고 결국 왕윤·여포에게 죽임을 당하였다.</string>
+    <string name="ESTJ_url">https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Dong_Zhuo_Portrait.jpg/225px-Dong_Zhuo_Portrait.jpg</string>
+
+    <string name="INFP_title">당신은 "유비형" 인물입니다.</string>
+    <string name="INFP_say">"세상 사람들은 자기가 아는 것이 적으면 많이 아는 사람을 미워한다"</string>
+    <string name="INFP_content">한 열조 소열황제 유비(漢 烈祖 昭烈皇帝 劉備, 161년 ~ 223년 6월 10일(음력 4월 24일))는 중국 삼국시대 촉한의 초대 황제(재위: 221년 5월 15일(음력 4월 6일) ~ 223년 6월 10일(음력 4월 24일))이다. 자는 현덕(玄德)이다.</string>
+    <string name="INFP_url">https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Liu_Bei_Portrait.jpg/220px-Liu_Bei_Portrait.jpg</string>
+
+    <string name="ESTP_title">당신은 "손견형" 인물입니다.</string>
+    <string name="ESTP_say"> 동오의 황제로 추존되었다. 묘호는 시조(始祖), 시호는 무열황제(武烈皇帝)이다.</string>
+    <string name="ESTP_content">손견(孫堅, 155년 ~ 191년)은 중국 후한 말의 무장이다. 자는 문대(文臺)이며 양주(揚州) 오군(吳郡) 부춘현(富春縣) 사람이다. 젊어서부터 무공을 세웠으며 반동탁 연합군 중에서도 가장 선전하였다. 각 군웅들이 할거한 후에는 원술 밑에서 유표를 공격하다 전사하였다.</string>
+    <string name="ESTP_url">https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jade_Seal.png/225px-Jade_Seal.png</string>
+
+    <string name="ENTP_title">당신은 "손책형" 인물입니다.</string>
+    <string name="ENTP_say">장사환왕</string>
+    <string name="ENTP_content">오 장사환왕 손책(吳 長沙桓王 孫策, 175년 ~ 200년 음력 4월)은 중국 후한 말의 군벌이자 동오의 추존제후왕이다. 자는 백부(伯符)이며 양주 오군 부춘현(富春縣) 사람이다. 손견의 장남이자, 대제 손권(孫權)의 형이다.</string>
+    <string name="ENTP_url">https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sun_Ce_Portrait.jpg/200px-Sun_Ce_Portrait.jpg</string>
 
 
 
+    <string name="ISTP_title">당신은 "여포형" 인물입니다.</string>
+    <string name="ISTP_say">"인물로는 여포, 말로는 적토가 있다."\n-여포 스스로 한말-</string>
+    <string name="ISTP_content">여포(呂布, ? ~ 199년 2월 7일(198년 음력 12월))는 중국 후한 말의 장군이다. 자는 봉선(奉先)이며 병주 오원군 구원현(五原郡 九原縣) 사람이다. ‘마중적토 인중여포(馬中赤兎 人中呂布)’라는 말로 표상되듯 신기(神技)에 가까운 무예로 천하의 명성을 얻었다.</string>
+    <string name="ISTP_url">https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/L%C3%BC_Bu_Portrait.jpg/225px-L%C3%BC_Bu_Portrait.jpg</string>
+
+    <string name="ISTJ_title">당신은 "손권형" 인물입니다.</string>
+    <string name="ISTJ_say">"처음에는 지켜보다가 중간에서 이익을 얻는 것이 상책이다"</string>
+    <string name="ISTJ_content">어린 나이에 오후(吳侯)의 자리에 올라 강동을 다스렸다. 조조와 유비의 침공을 방어하여 삼국정립에 기여하였으며, 수성(守成)의 명수로 널리 평가되고 있다. 그러나 말년의 거듭된 실책으로 오나라 패망의 단초를 제공하기도 하였다.</string>
+    <string name="ISTJ_url">https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/SunQuan.jpg/220px-SunQuan.jpg</string>
+
+
+    <string name="INFJ_title">당신은 "순욱형" 인입니다.</string>
+    <string name="INFJ_say">"지금이야말로 천하를 다투는 대승부를 벌일 때입니다. 결코 기회를 놓쳐서는 안됩니다"</string>
+    <string name="INFJ_content">순욱(荀彧, 163년 ~ 212년)은 중국 후한 말 조조 휘하의 정치가로 자는 문약(文若)이며 예주 영천군 영음현(穎陰縣) - 지금의 허난성 쉬창 시 사람이다.</string>
+    <string name="INFJ_url">https://upload.wikimedia.org/wikipedia/commons/d/d6/%EC%98%81%EC%B2%9C_%EC%88%9C%EC%94%A8.png</string>
+
+    <string name="INTP_title">당신은 "제갈량형" 인물입니다.</string>
+    <string name="INTP_say">"고육지계를 쓰지 않고 어찌 조조를 속일 수 있겠소!"</string>
+    <string name="INTP_content"> 유비를 도와 촉한을 건국하는 제업을 이루었다. 형주 남부 4군을 발판으로 유비의 익천을 도왔다. 221년 유비가 제위에 오르자, 승상에 취임하였고, 유비 사후 유선을 보좌하여 촉한의 정치를 주장하였다.</string>
+    <string name="INTP_url">https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Zhuge_Liang.jpg/225px-Zhuge_Liang.jpg</string>
+
+    <string name="ENFJ_title">당신은 "주유형" 인물입니다.</string>
+    <string name="ENFJ_say">"어찌하여 하늘은 주유를 낳고 왜 또 공명을 낳았는가"</string>
+    <string name="ENFJ_content">주유(周瑜, 175년 ~ 210년)는 중국 후한 말기의 군인으로, 자는 공근(公瑾)이며 여강군 서현(舒縣) 사람이다. 태위 주충의 조카로, 고조부 주영 이래로 대대로 고관을 지낸 명문가 출신이다.</string>
+    <string name="ENFJ_url">https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/ZhouYu.jpg/200px-ZhouYu.jpg</string>
+
+    <string name="ESFJ_title">당신은 "노숙형" 인물입니다.</string>
+    <string name="ESFJ_say">손권의 장군, 자경노숙</string>
+    <string name="ESFJ_content">노숙(魯肅, 병음 Lǔ Sù 172년 ~ 217년)은 중국 후한 말 손권 휘하의 장군이자 정치가로 자는 자경(子敬)이며 서주 임회군 동성현(東城縣) 사람이다</string>
+    <string name="ESFJ_url">https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/LuSu.jpg/200px-LuSu.jpg</string>
+
+    <string name="ISFJ_title">당신은 "육손형" 인물입니다.</string>
+    <string name="ISFJ_say">"힘써 지켜라! 시간은 많다! 고생들 한다"</string>
+    <string name="ISFJ_content"> 촉한과 위나라의 침공을 여러 차례 격퇴하여 오나라를 지켜냈으며, 여몽을 도와 관우를 사로 잡는데 공을 세웠고, 이후 원한을 갚고자 침공한 유비군을 물리치는데 큰 역할을 하였다.</string>
+    <string name="ISFJ_url">https://upload.wikimedia.org/wikipedia/commons/d/de/LuXun.jpg</string>
+
+    <string name="INTJ_title">당신은 "사마의형" 인물입니다.</string>
+    <string name="INTJ_say">"싸울수 있으면 싸우고, 싸울수 없으면 지키며, 지킬수 없으면 달아나고, 달아날 수 없으면 항복하며, 항복할 수 없으면 죽음뿐이다."</string>
+    <string name="INTJ_content">위나라의 군대를 이끌어 그의 최대의 라이벌인 제갈량과의 치열한 지략싸움 끝에 결국 제갈량의 북벌을 막아냈다. 명제 사후 실권을 장악하여 서진 건국의 토대를 마련하였다.</string>
+    <string name="INTJ_url">https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/SimaYi.jpg/158px-SimaYi.jpg</string>
+
+    <string name="ISFP_title">당신은 "관우형" 인물입니다.</string>
+    <string name="ISFP_say">"옥은 비록 깨어져 부서질 언정 그 하얀 빛을 잃으려 하지 않으며, 대나무는 불에 탈지언정 그 곧음을 잃으려 하지 않는다." </string>
+    <string name="ISFP_content"> 유비(劉備)를 오랫동안 섬기며 촉한 건국에 지대한 공로를 세웠다 충성심과 의리, 당당한 성품으로 인해 동아시아에서 가장 잘 알려진 장수로 손꼽히며 사후 신격화 되어 관제묘가 세워졌다. 한국의 "동묘" 또한 관우를 모시는 사당이다</string>
+    <string name="ISFP_url">https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/GuanYu-ZhouCang.jpg/200px-GuanYu-ZhouCang.jpg</string>
+
+    <string name="ESFP_title">당신은 "장비형" 인물입니다.</string>
+    <string name="ESFP_say">"으아아아ㅏ!!!"\n-장판파에서 장비가 소리를 외치자, 조조군이 놀라 죽었다-</string>
+    <string name="ESFP_content">유비, 관우와 생사고락을 함께 하며 이름을 떨쳤다. 무용이 뛰어나서 관우와 함께 만인적이라 불렸다. 특히 장판 전투, 서촉 공방전, 한중 공방전에서 활약했다. 관우 사후 그 복수를 위해 오나라로의 출진을 준비하던 도중 원한을 품은 부하 범강과 장달에게 암살당했다.</string>
+    <string name="ESFP_url">https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ZhangFei.jpg/225px-ZhangFei.jpg</string>
 
 </resources>
