@@ -47,70 +47,15 @@ class ResultActiviy : AppCompatActivity() {
             Glide.with(this)
                 .load("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Cao_Cao_Portrait_ROTK.jpg/209px-Cao_Cao_Portrait_ROTK.jpg")
                 .into(binding.ivResultImage)
-            binding.tvResultName.text="당신은 '조조형' 인물입니다."
-            binding.tvResultcontent.text ="'차라리 내가 천하를 등질지언정, 천하가 나를 등지게 하지는 않겠다.'\n'그 아이가 죽은건 내게 불행이지만 너희들에겐 오히려 행운이렸다'\n-아들 조충이 죽었을때 다른 아들들에게 말하며-"
+            binding.tvResultName.text=getString(R.string.ENFP_title)
+            binding.tvResultsay.text = getString(R.string.ENFP_say)
+            binding.tvResultsummary.text=getText(R.string.ENFP_content)
         }
 
-
-
-        val cunstomView = CustomView("",this)
-        binding.llChar.addView(cunstomView)
 
 
 
 
     }
-    class CustomView(text:String , context:Context, ): View(context){
-        override fun onDraw(canvas: Canvas?) {
 
-            //중앙 시작 x 좌표 180
-            //다음 그래프로 이동하려면 y60더해줄것
-
-            //그래프 두깨 y2= y1+30
-            //x길이 맥시멈은 좌로는 0 우로는 360
-
-            //ISTJ값은 각 값이 들어오면 X2=(100-해당값)*2
-
-            //ENFP 값은 각 값이 들어오면 x2= 220+(절대값 *2)
-
-
-
-            val yello = Paint()
-            yello.style=Paint.Style.FILL
-            yello.strokeWidth=10f
-            yello.color= resources.getColor(R.color.color1)
-            var IErect = Rect(180,20,120, 50)
-            canvas?.drawRect(IErect,yello)
-
-            val green = Paint()
-            green.style=Paint.Style.FILL
-            green.strokeWidth=10f
-            green.color= resources.getColor(R.color.color2)
-            var SNrect = Rect(180,80,50, 110)
-            canvas?.drawRect(SNrect,green)
-
-            val yello2 = Paint()
-            yello2.style=Paint.Style.FILL
-            yello2.strokeWidth=10f
-            yello2.color= resources.getColor(R.color.color3)
-            var TFrect = Rect(180,140,80, 170)
-            canvas?.drawRect(TFrect,yello2)
-
-            val green2 = Paint()
-            green2.style=Paint.Style.FILL
-            green2.strokeWidth=10f
-            green2.color= resources.getColor(R.color.color4)
-            var JPrect = Rect(180,200,150, 230)
-            canvas?.drawRect(JPrect,green2)
-
-            val black = Paint()
-            black.style=Paint.Style.STROKE
-            black.strokeWidth=10f
-            black.color= Color.GRAY
-            var rect = Rect(180,20,180, 240)
-            canvas?.drawRect(rect,black)
-
-
-        }
-    }
 }
