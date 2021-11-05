@@ -1,7 +1,10 @@
 # TK_MBTI
+[2021.09.13~14] 
 
 
-[2021.09.13~14]
+![threed_mockup](https://user-images.githubusercontent.com/55087027/140475941-1f21bfe2-83d2-4583-9631-de983120c03e.png)
+
+
 간단한 MBTI 유형 테스트를 통하여 본인과 비슷한 인물을 삼국지 인물에서 찾아줍니다.
 
 <p align = " center " >
